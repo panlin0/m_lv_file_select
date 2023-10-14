@@ -12,13 +12,13 @@ the interface is simple only 6.
 5. 可设置升降序。  
 6. 自定义选中颜色/界面图标(需要字库有)。
    
-1.  The LVGL file system /stdio standard file system interface can be used at the same time.
+The LVGL file system /stdio standard file system interface can be used at the same time.
     (For microcontrollers, note M_FILE_SELECT_SUPPORT_STDIO_FS in the m_lv_file_select.h file.)
-2.  can select one or more files or directories.
-3.  The sorting rules can be customized.  By default, the sorting rules are sorted by file name.
-4.  Support suffix filtering, for example, ".jpg.  bmp.  png".  The parameter is m_lv_file_select_open *filter.
-5.  can set an ascending or descending sequence.
-6.  Customize the selected color/interface icon (required font).
+can select one or more files or directories.
+The sorting rules can be customized.  By default, the sorting rules are sorted by file name.
+Support suffix filtering, for example, ".jpg.  bmp.  png".  The parameter is m_lv_file_select_open *filter.
+can set an ascending or descending sequence.
+Customize the selected color/interface icon (required font).
 
 #### 事件    
 1. LV_EVENT_VALUE_CHANGED     
